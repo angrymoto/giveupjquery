@@ -1,0 +1,31 @@
+{
+  "name": "rxjs-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --watch",
+    "serve": "lite-server -c=bs-config.json",
+    "start": "concurrently \"npm run build:watch\" \"npm run serve\""
+  },
+  "keywords": [
+    "rxjs"
+  ],
+  "author": "Jo",
+  "license": "WTFPL",
+  "dependencies": {
+    "@types/jquery": "^2.0.42",
+    "jquery": "^3.2.1",
+    "linqts": "^1.8.2",
+    "moment": "^2.18.1",
+    "rxjs": "^5.3.1"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "concurrently": "^3.4.0",
+    "lite-server": "^2.3.0",
+    "source-map-loader": "^0.2.1",
+    "typescript": "^2.3.2",
+    "webpack": "^2.4.1"
+  }
+}
